@@ -1,0 +1,57 @@
+/* Định dạng chung cho trang web */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#banner {
+  background-color: #ff7f50;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#destinations {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.destination {
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
